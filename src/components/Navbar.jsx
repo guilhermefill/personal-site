@@ -37,6 +37,23 @@ const Navbar = ({ goToRef }) => {
 			>
 				<Link
 					activeClass="active"
+					to="App"
+					spy={true}
+					smooth={true}
+					duration={500}
+				>
+					<Text
+						as="Button"
+						fontFamily="Montserrat"
+						fontWeight="600"
+						fontSize="lg"
+					>
+						Home
+					</Text>
+				</Link>
+
+				<Link
+					activeClass="active"
 					to="about"
 					spy={true}
 					smooth={true}
