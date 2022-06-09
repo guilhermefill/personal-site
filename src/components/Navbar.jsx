@@ -21,7 +21,7 @@ const Navbar = () => {
 	const gitLogo = useColorModeValue(gitDark, gitLight);
 	const linkedin = useColorModeValue(linkedinDark, linkedinLight);
 	return (
-		<Wrap w="100%" top={0} justify="center" mb={75}>
+		<Wrap w="100%" top={0} justify="center" opacity={80}>
 			<Flex
 				maxW="1000px"
 				p="25px"
@@ -29,9 +29,6 @@ const Navbar = () => {
 				justify="center"
 				gap="5"
 				m="auto"
-				fontFamily="Montserrat"
-				fontWeight="600"
-				fontSize="lg"
 				pos="fixed"
 				w="100%"
 				zIndex={1}
@@ -105,6 +102,7 @@ const Navbar = () => {
 				</Link>
 
 				<Spacer />
+
 				<a
 					href="https://github.com/guilhermefill"
 					target="_blank"
