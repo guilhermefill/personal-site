@@ -6,18 +6,13 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 
 function App() {
-	const pageRef = React.useRef(null);
-	const goToRef = (id) => {
-		pageRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
-	};
-
 	return (
 		<div className="App">
-			<Navbar goToRef={goToRef} />
+			<Navbar />
 			<Landing />
-			<About ref={pageRef} id="about" />
-			<Projects ref={pageRef} id="projects" />
-			<Contact ref={pageRef} id="contact" />
+			<About id="about" />
+			<Projects id="projects" />
+			<Contact id="contact" />
 		</div>
 	);
 }

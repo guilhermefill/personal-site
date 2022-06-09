@@ -16,7 +16,7 @@ import gitLight from '../assets/images/GitHub-Mark/PNG/GitHub-Mark-Light-120px-p
 import linkedinLight from '../assets/images/Linkedin/In-White-96.png';
 import linkedinDark from '../assets/images/Linkedin/linkedin-logo.png';
 
-const Navbar = ({ goToRef }) => {
+const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
 	const gitLogo = useColorModeValue(gitDark, gitLight);
 	const linkedin = useColorModeValue(linkedinDark, linkedinLight);
@@ -34,6 +34,7 @@ const Navbar = ({ goToRef }) => {
 				fontSize="lg"
 				pos="fixed"
 				w="100%"
+				zIndex={1}
 			>
 				<Link
 					activeClass="active"
