@@ -1,9 +1,12 @@
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 
-const Projects = () => {
+const Projects = ({ id }) => {
 	return (
-		<div>
-			<>Projects</>
+		<div id={id}>
+			<Box h="1000px">
+				<>Projects</>
+			</Box>
 		</div>
 	);
 };
