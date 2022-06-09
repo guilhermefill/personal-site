@@ -55,7 +55,7 @@ const Navbar = () => {
 					to="about"
 					spy={true}
 					smooth={true}
-					offset={-200}
+					offset={-250}
 					duration={500}
 				>
 					<Text

@@ -11,7 +11,7 @@ const styles = {
 
 const config = {
 	initialColorMode: 'dark',
-	useSystemColorMode: false,
+	useSystemColorMode: true,
 	fonts: {
 		heading: `'Montserrat', sans-serif`,
 		body: `'Montserrat', sans-serif`,
