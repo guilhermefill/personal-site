@@ -6,6 +6,7 @@ import {
 	Image,
 	useColorMode,
 	useColorModeValue,
+	Wrap,
 } from '@chakra-ui/react';
 
 import { Link } from 'react-scroll';
@@ -20,87 +21,91 @@ const Navbar = ({ goToRef }) => {
 	const gitLogo = useColorModeValue(gitDark, gitLight);
 	const linkedin = useColorModeValue(linkedinDark, linkedinLight);
 	return (
-		<Flex
-			maxW="1000px"
-			p="25px"
-			align="center"
-			justify="center"
-			gap="5"
-			m="auto"
-			fontFamily="Montserrat"
-			fontWeight="600"
-			fontSize="lg"
-		>
-			<Link
-				activeClass="active"
-				to="about"
-				spy={true}
-				smooth={true}
-				duration={500}
+		<Wrap w="100%" top={0} justify="center" mb={75}>
+			<Flex
+				maxW="1000px"
+				p="25px"
+				align="center"
+				justify="center"
+				gap="5"
+				m="auto"
+				fontFamily="Montserrat"
+				fontWeight="600"
+				fontSize="lg"
+				pos="fixed"
+				w="100%"
 			>
-				<Text
-					as="Button"
-					fontFamily="Montserrat"
-					fontWeight="600"
-					fontSize="lg"
+				<Link
+					activeClass="active"
+					to="about"
+					spy={true}
+					smooth={true}
+					duration={500}
 				>
-					About
-				</Text>
-			</Link>
+					<Text
+						as="Button"
+						fontFamily="Montserrat"
+						fontWeight="600"
+						fontSize="lg"
+					>
+						About
+					</Text>
+				</Link>
 
-			<Link
-				activeClass="active"
-				to="projects"
-				spy={true}
-				smooth={true}
-				duration={500}
-			>
-				<Text
-					as="Button"
-					fontFamily="Montserrat"
-					fontWeight="600"
-					fontSize="lg"
+				<Link
+					activeClass="active"
+					to="projects"
+					spy={true}
+					smooth={true}
+					duration={500}
 				>
-					Projects
-				</Text>
-			</Link>
+					<Text
+						as="Button"
+						fontFamily="Montserrat"
+						fontWeight="600"
+						fontSize="lg"
+					>
+						Projects
+					</Text>
+				</Link>
 
-			<Link
-				activeClass="active"
-				to="contact"
-				spy={true}
-				smooth={true}
-				duration={500}
-			>
-				<Text
-					as="Button"
-					fontFamily="Montserrat"
-					fontWeight="600"
-					fontSize="lg"
+				<Link
+					activeClass="active"
+					to="contact"
+					spy={true}
+					smooth={true}
+					duration={500}
 				>
-					Contact
-				</Text>
-			</Link>
+					<Text
+						as="Button"
+						fontFamily="Montserrat"
+						fontWeight="600"
+						fontSize="lg"
+					>
+						Contact
+					</Text>
+				</Link>
 
-			<Spacer />
-			<a
-				href="https://github.com/guilhermefill"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<Image src={gitLogo} boxSize="25px"></Image>
-			</a>
-			<a
-				href="https://www.linkedin.com/in/guilhermefill/"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<Image src={linkedin} boxSize="25px"></Image>
-			</a>
-			<Button onClick={toggleColorMode} size="md" fontSize="larger">
-				{colorMode === 'light' ? '🌚' : '🌞'}
-			</Button>
-		</Flex>
+				<Spacer />
+				<a
+					href="https://github.com/guilhermefill"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Image src={gitLogo} boxSize="25px"></Image>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/guilhermefill/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Image src={linkedin} boxSize="25px"></Image>
+				</a>
+				<Button onClick={toggleColorMode} size="md" fontSize="larger">
+					{colorMode === 'light' ? '🌚' : '🌞'}
+				</Button>
+			</Flex>
+		</Wrap>
 	);
 };
 
