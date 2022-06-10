@@ -4,7 +4,7 @@ import React from 'react';
 const About = ({ id }) => {
 	return (
 		<div id={id}>
-			<Container mt={300}>
+			<Container mt={250}>
 				<Heading fontFamily="Montserrat" pb={5}>
 					Who Am I?
 				</Heading>
