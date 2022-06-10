@@ -4,7 +4,7 @@ import React from 'react';
 const About = ({ id }) => {
 	return (
 		<div id={id}>
-			<Container mt={250}>
+			<Container mt={350}>
 				<Text fontFamily="Montserrat" textAlign="justify">
 					[Post-Pandemic] Fullstack Engineer recently graduated from Ironhack
 					Berlin. For the past years, I have been dedicated to exploring a new

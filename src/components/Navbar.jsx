@@ -55,7 +55,7 @@ const Navbar = () => {
 					to="about"
 					spy={true}
 					smooth={true}
-					offset={-250}
+					offset={-300}
 					duration={500}
 				>
 					<Text
@@ -74,6 +74,7 @@ const Navbar = () => {
 					spy={true}
 					smooth={true}
 					duration={500}
+					offset={-200}
 				>
 					<Text
 						as="Button"
