@@ -4,7 +4,7 @@ import projects from '../assets/data/projects.json';
 
 const Projects = ({ id }) => {
 	const projectList = projects.map((project) => (
-		<GridItem w="100%">
+		<GridItem w="100%" key={project.id}>
 			<a href={project.link}>
 				<Box
 					w={300}
