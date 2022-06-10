@@ -5,7 +5,7 @@ const About = ({ id }) => {
 	return (
 		<div id={id}>
 			<Container mt={350}>
-				<Text fontFamily="Montserrat" textAlign="justify">
+				<Text fontFamily="Montserrat" textAlign="justify" fontSize="large">
 					[Post-Pandemic] Fullstack Engineer recently graduated from Ironhack
 					Berlin. For the past years, I have been dedicated to exploring a new
 					found passion for programming and creating products from scratch.
