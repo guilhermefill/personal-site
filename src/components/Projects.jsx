@@ -33,7 +33,7 @@ const Projects = ({ id }) => {
 			<Grid
 				templateColumns="repeat(3, 1fr)"
 				gap={6}
-				mt={350}
+				mt={300}
 				maxW="1000px"
 				ml="auto"
 				mr="auto"

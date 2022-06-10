@@ -44,7 +44,7 @@ const Contact = ({ id }) => {
 	};
 	return (
 		<div id={id}>
-			<Container mt={350} mb={250}>
+			<Container mt={350} mb={150}>
 				<Heading fontFamily="Montserrat" mb={10}>
 					Hire Me!
 				</Heading>

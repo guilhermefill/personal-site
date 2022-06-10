@@ -1,10 +1,13 @@
-import { Text, Container } from '@chakra-ui/react';
+import { Text, Container, Heading } from '@chakra-ui/react';
 import React from 'react';
 
 const About = ({ id }) => {
 	return (
 		<div id={id}>
-			<Container mt={350}>
+			<Container mt={300}>
+				<Heading fontFamily="Montserrat" pb={5}>
+					Who Am I?
+				</Heading>
 				<Text fontFamily="Montserrat" textAlign="justify" fontSize="large">
 					[Post-Pandemic] Fullstack Engineer recently graduated from Ironhack
 					Berlin. For the past years, I have been dedicated to exploring a new
