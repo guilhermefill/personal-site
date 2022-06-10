@@ -15,8 +15,15 @@ const Projects = ({ id }) => {
 					boxShadow="base"
 				>
 					<Image w={300} h={150} src={project.image_url}></Image>
-					<Heading align="center">{project.title}</Heading>
-					<Text>{project.description}</Text>
+					<Heading align="center" fontFamily="Montserrat" fontSize="2xl" p={5}>
+						{project.title}
+					</Heading>
+					<Text fontFamily="Montserrat" align="justify" pb={5}>
+						{project.description}
+					</Text>
+					<Text as="em" fontFamily="Montserrat" fontSize="small">
+						Tech: {project.tech_stack}
+					</Text>
 				</Box>
 			</a>
 		</GridItem>

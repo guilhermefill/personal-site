@@ -1,23 +1,23 @@
 [
 	{
 		"title": "Only Plants",
-		"description": "",
+		"description": "A fullstack web app social network to share pictures of plants.",
 		"image_url": "https://res.cloudinary.com/dgyotxrag/image/upload/v1654861802/Portfolio/Screenshot_2022-06-10_at_13.47.49_tp5ird.png",
 		"link": "https://onlyplants.netlify.app/",
-		"tech_stack": ""
+		"tech_stack": "React, MongoDB, Express, Node.JS, Chakra-UI"
 	},
 	{
 		"title": "Grandma's Cookbook",
-		"description": "",
+		"description": "A fullstack web app to share, save and comment on recipes.",
 		"image_url": "https://res.cloudinary.com/dgyotxrag/image/upload/v1654861801/Portfolio/Screenshot_2022-06-10_at_13.48.21_xlcbma.png",
 		"link": "https://grandmacookbook.herokuapp.com/",
-		"tech_stack": ""
+		"tech_stack": "Express, Node.JS, MongoDB, Handlebars, Bootstrap"
 	},
 	{
 		"title": "Berlin Streets",
-		"description": "",
+		"description": "2D game where you collect bottles and avoid the traps from Berlin.",
 		"image_url": "https://res.cloudinary.com/dgyotxrag/image/upload/v1654861804/Portfolio/Screenshot_2022-06-10_at_13.48.42_ldzfas.png",
 		"link": "https://guilhermefill.github.io/ironhack-project-game/",
-		"tech_stack": ""
+		"tech_stack": "Javascript, HTML, CSS"
 	}
 ]
