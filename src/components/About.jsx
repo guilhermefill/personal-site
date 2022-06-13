@@ -9,14 +9,17 @@ const About = ({ id }) => {
 					Who Am I?
 				</Heading>
 				<Text fontFamily="Montserrat" textAlign="justify" fontSize="larger">
-					A [Post-Pandemic] Fullstack Engineer passionate about creating new
-					experiences and products as well as helping people achieve their
-					dreams and ideas. I have dedicated the past years to exploring my
-					passion for programming and building things on the internet. After
-					having done multiple self-taught courses on web development and data
-					engineering, I have most recently formalized this training with a tech
-					bootcamp. I am always looking for new opportunities to learn and
-					connect with like-minded companies, communities and people.
+					A post-pandemic fullstack engineer passionate about creating new
+					experiences and products that help people achieve their goals. After
+					10+ years providing memorable experiences through concerts as a Sound
+					Engineer and technical manager, I have decided to migrate to a new
+					passion of mine, programming and building stuff on the internet. After
+					validating my excitement for coding with multiple self-taught courses
+					on web development and data engineering, this year I decided to
+					formalized my expertise with a tech bootcamp. I am always looking for
+					new opportunities to learn and connect with like-minded people,
+					companies and communities. So reach out if you ever wanna chat about
+					coding, music or bikes.
 				</Text>
 			</Container>
 		</div>
