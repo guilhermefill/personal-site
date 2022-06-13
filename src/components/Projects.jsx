@@ -5,7 +5,7 @@ import projects from '../assets/data/projects.json';
 const Projects = ({ id }) => {
 	const projectList = projects.map((project) => (
 		<GridItem w="100%" key={project.id}>
-			<a href={project.link}>
+			<a href={project.link} target="_blank" rel="noreferrer">
 				<Box
 					w={300}
 					h={400}
