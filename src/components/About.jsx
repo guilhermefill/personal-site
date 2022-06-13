@@ -8,12 +8,15 @@ const About = ({ id }) => {
 				<Heading fontFamily="Montserrat" pb={5}>
 					Who Am I?
 				</Heading>
-				<Text fontFamily="Montserrat" textAlign="justify" fontSize="large">
-					[Post-Pandemic] Fullstack Engineer. For the past years, I have been
-					dedicated to exploring a new found passion for programming and
-					creating products from scratch. Having done multiple self-taught
-					courses on web development and data engineering and finally made the
-					move to formalize this education with a Tech Bootcamp.
+				<Text fontFamily="Montserrat" textAlign="justify" fontSize="larger">
+					A [Post-Pandemic] Fullstack Engineer passionate about creating new
+					experiences and products as well as helping people achieve their
+					dreams and ideas. I have dedicated the past years to exploring my
+					passion for programming and building things on the internet. After
+					having done multiple self-taught courses on web development and data
+					engineering, I have most recently formalized this training with a tech
+					bootcamp. I am always looking for new opportunities to learn and
+					connect with like-minded companies, communities and people.
 				</Text>
 			</Container>
 		</div>
